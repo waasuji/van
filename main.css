@@ -1,0 +1,26 @@
+body{
+    min-height: 90vh;
+    background-color: #1c1818;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent{
+    background-color:beige;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
