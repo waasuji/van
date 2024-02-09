@@ -1,6 +1,6 @@
 body{
     min-height: 90vh;
-    background-color:antiquewhite;
+    background-color:rgb(254, 182, 203);
     color: black;
     display: flex;
     align-items: center;
@@ -15,33 +15,56 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15%;
-    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .child{
-    width: 250px;
+    width: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: justify;
 }
 
 .child h2{
+    width: 100%;
     font-style: italic;
     font-weight: 500;
+    text-align: left;
 }
 
 .child h3{
     font-weight: 100;
+    text-align: justify;
+    font-size: 16px;
 }
 
 .child button{
     background-color: thistle;
-    padding: 20px;
-    border-radius: 35%;
+    padding: 10px;
+    border: 1px solid transparent;
 }
 .child button:hover{
     opacity: 0.8;
+}
+
+.goodbye{
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+/* part 2 */
+#btn-yes{
+    background-color: rgb(89, 188, 89);
+    width: 100px;
+    padding: 5px;
+    border: none;
+}
+#btn-no{
+    background-color: rgb(219, 65, 65);
+    width: 100px;
+    padding: 5px;
+    border: none;
 }
