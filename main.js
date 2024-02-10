@@ -64,12 +64,15 @@ function resetButtonSize(){
 function toggleDiv2(){
     var div2 = document.getElementById('div2');
     var div3 = document.getElementById('div3');
+    var hearts = document.getElementById('heart-float')
 
     if (div2.style.display !== 'none') {
         div2.style.display = 'none';
         div3.style.display = 'block';
+        hearts.style.display = 'block';
     } else {
         div2.style.display = 'block';
         div3.style.display = 'none';
-    } 
+        hearts.style.display = 'none';
+    }
 }
