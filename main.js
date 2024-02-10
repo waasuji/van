@@ -1,3 +1,29 @@
+function toggleDiv1122(){
+    var div11 = document.getElementById('div11');
+    var div22 = document.getElementById('div22');
+
+    if (div11.style.display !== 'none') {
+        div11.style.display = 'none';
+        div22.style.display = 'block';
+    } else {
+        div11.style.display = 'block';
+        div22.style.display = 'none';
+    } 
+}
+
+function toggleDiv0(){
+    var div0 = document.getElementById('div0');
+    var div1 = document.getElementById('div1');
+
+    if (div0.style.display !== 'none') {
+        div0.style.display = 'none';
+        div1.style.display = 'block';
+    } else {
+        div0.style.display = 'block';
+        div1.style.display = 'none';
+    } 
+}
+
 function toggleDiv1(){
     var div1 = document.getElementById('div1');
     var div2 = document.getElementById('div2');
@@ -19,7 +45,7 @@ function increaseSize(){
     var currentSize = parseInt(window.getComputedStyle(button1).getPropertyValue('padding'));
 
     function increaseButtonSize(){
-        currentSize += 10;
+        currentSize += 30;
         if (currentSize<maxSize){
             button1.style.padding = currentSize+'px';
         }else{
@@ -31,7 +57,7 @@ function increaseSize(){
 
 function resetButtonSize(){
     var button = document.getElementById('btn-yes');
-    button.style.padding = '5px';
+    button.style.padding = '8px';
 }
 
 
