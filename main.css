@@ -112,6 +112,10 @@ body{
     font-weight: bold;
     font-size: 18px;
 }
+#btn-yes:hover{
+    background-color: rgb(70, 207, 70);
+}
+
 #btn-no{
     background-color: rgb(219, 65, 65);
     width: 100px;
@@ -123,6 +127,9 @@ body{
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 18px;
+}
+#btn-no:hover{
+    background-color: rgb(255, 73, 73);
 }
 
 
